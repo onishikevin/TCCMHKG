@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 
-model = SentenceTransformer('multi-qa-distilbert-cos-v1')
+model = SentenceTransformer('multi-qa-mpnet-base-cos-v1')
 
 
 #Função que seleciona as entidades da pergunta(tamanho > 3)

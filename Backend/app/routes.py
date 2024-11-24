@@ -45,6 +45,7 @@ def handle_query_first():
         return jsonify({"error": "Parâmetro 'query' é obrigatório"}), 400
 
     result = process_query(query)
+    print(result)
     first_item = result[0] if result else []
     return jsonify(first_item), 200
 
