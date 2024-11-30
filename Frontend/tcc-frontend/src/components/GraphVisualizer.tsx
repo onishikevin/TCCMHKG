@@ -2,12 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { GraphCanvas, GraphNode, GraphEdge } from 'reagraph';
 import Papa from 'papaparse';
 import '../styles/GraphVisualizer.css';
-
-interface CsvRow {
-  Subject: string;
-  Relation: string;
-  Object: string;
-}
+import { CsvRow } from '../interfaces';
 
 const GraphVisualizer: React.FC = () => {
   const [nodes, setNodes] = useState<GraphNode[]>([]);
