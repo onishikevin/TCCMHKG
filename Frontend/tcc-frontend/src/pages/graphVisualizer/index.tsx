@@ -34,7 +34,7 @@ const GraphVisualizer = () => {
 
   return (
     <>
-      <Box m="20px">
+      <Box sx={{ mr: '20px' , ml:'20px'}}>
         <Box display="flex" justifyContent="space-between" alignItems>
           <Header
             title={'Knowledge Graphs'}
@@ -42,7 +42,7 @@ const GraphVisualizer = () => {
           />
         </Box>
       </Box>
-      <Grid2 container spacing={2} m="50px">
+      <Grid2 container spacing={2} sx={{ mr: '50px' , ml:'50px' ,mt:'10px', mb:'10px'}}>
         <Grid2 size={10} height="50vh">
           <Box position="absolute" width="65vw" height="50%">
             <GraphCanvas
