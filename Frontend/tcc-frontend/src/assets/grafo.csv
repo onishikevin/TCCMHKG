@@ -1,29 +1,73 @@
-"Subject","Relation","Object",
-"Petrobras","has indulged with","key contractors",
-"Petrobras","has indulged in","R&D programs",
-"Petrobras","has indulged in","technology partnerships",
-"Petrobras","achieve","goals",
-"Petrobras","is opening up","offshore development opportunities",
-"offshore development opportunities","are in","Brazil",
-"one of the main contractors","is","FMC Technologies Inc.",
-"one of the main contractors","is helping","Petrobras",
-"one of the main contractors","is helping achieve","goals",
-"goals","on","Marlim",
-"Petrobras","has","goals",
-"subsea separation, pumping, and water reinjection system","will be installed in","899 m water depth",
-"subsea separation, pumping, and water reinjection system","will meet","challenge",
-"challenge","is","increased water production",
-"Petrobras","has awarded","FMC Technologies Inc.",
-"Petrobras","has awarded","subsea separation and boosting system contract",
-"subsea separation and boosting system contract","for","brownfield Congro and Corvine development",
-"subsea separation and boosting system contract","is","additional",
-"brownfield Congro and Corvine development","in","Campos basin",
-"Petrobras","has recently completed","Procap 3000 research program",
-"Petrobras","has","Procap 3000 research program",
-"Procap 3000 research program","is","successful",
-"Procap 3000 research program","is driver for","deepwater advances",
-"operator","has","deepwater advances",
-"Petrobras","has","Future Vision Procap program",
-"Petrobras","is laying emphasis on","pursuit of solutions",
-"pursuit of solutions","could significantly alter","current standards",
-"current standards","for","developing deepwater fields",
+﻿"Subject","Relation","Object"
+"Petrobras","has indulged with","key contractors"
+"Petrobras","has indulged in","R&D programs"
+"Petrobras","has indulged in","technology partnerships"
+"Petrobras","achieve","goals"
+"Petrobras","is opening up","offshore development opportunities"
+"offshore development opportunities","are in","Brazil"
+"one of the main contractors","is","FMC Technologies Inc."
+"one of the main contractors","is helping","Petrobras"
+"one of the main contractors","is helping achieve","goals"
+"goals","on","Marlim"
+"Petrobras","has","goals"
+"subsea separation, pumping, and water reinjection system","will be installed in","899 m water depth"
+"subsea separation, pumping, and water reinjection system","will meet","challenge"
+"challenge","is","increased water production"
+"Petrobras","has awarded","FMC Technologies Inc."
+"Petrobras","has awarded","subsea separation and boosting system contract"
+"subsea separation and boosting system contract","for","brownfield Congro and Corvine development"
+"subsea separation and boosting system contract","is","additional"
+"brownfield Congro and Corvine development","in","Campos basin"
+"Petrobras","has recently completed","Procap 3000 research program"
+"Petrobras","has","Procap 3000 research program"
+"Procap 3000 research program","is","successful"
+"Procap 3000 research program","is driver for","deepwater advances"
+"operator","has","deepwater advances"
+"Petrobras","has","Future Vision Procap program"
+"Petrobras","is laying emphasis on","pursuit of solutions"
+"pursuit of solutions","could significantly alter","current standards"
+"current standards","for","developing deepwater fields"
+"Petrobras","collaborates with","CENPES"
+"CENPES","is focused on","Inspection tools"
+"Inspection tools","used for","monitoring subsea equipment"
+"CENPES","is working on","new and more efficient systems, methods and procedures"
+"new and more efficient systems, methods and procedures","used for","subsea construction"
+"Marcos Isaac","is the director of","CENPES"
+"Inspection tools","are being developed in","Brazil"
+"Petrobras","awarded","contracts"
+"Subsea 7","is responsible for","riser and flowline installations"
+"riser and flowline installations","located in","Campos basin"
+"Subsea 7","uses","vessels Seven Mar and Seven Condor"
+"vessels Seven Mar and Seven Condor","are used for","deepwater operations"
+"Petrobras","developed","flexible riser top connectors"
+"flexible riser top connectors","were developed in partnership with","Federal University of Rio Grande do Sul"
+"flexible riser top connectors","improve","fatigue resistance in ultra-deep waters"
+"Rob Perry","is the director of","FMC Technologies Inc."
+"Marlim","is","Petrobras’ largest field"
+"Petrobras’ largest field","located in","Campos basin"
+"Marlim","is spread out between","depths of 640 to 2,590m"
+"FMC Technologies Inc.","supplied the","subsea separation and boosting system contract"
+"FMC Technologies Inc.","is at the forefront with","important projects"
+"important projects","in","Brazil"
+"Subsea oil/water separation","was delivered in","Marlim"
+"Subsea oil/water separation","is","the first step"
+"enough water","to prevent","flow assurance issues"
+"Petrobras","draws inspiration from","Shell’s Ormen Lange and BG’s Scarab/Saffron"
+"Shell’s Ormen Lange and BG’s Scarab/Saffron","for","subsea production standards"
+"Libra field","requires","support vessels"
+"support vessels","used for","subsea construction"
+"subsea construction","to enhance","oil recovery"
+"the first step","in removing","enough water"
+"Libra field","was sold in","auction"
+"auction","was won by","Petrobras"
+"Federal University of Rio Grande do Sul","is developing","new subsea research"
+"new subsea research","is making","big changes"
+"big changes","in","the industry"
+"new subsea research","envolves","subsea construction"
+"Subsea 7","will support","Petrobras"
+"Petrobras","in","future developments"
+"future developments","will make","big changes"
+"Subsea 7","was awarded","project"
+"contracts","which described","The Guará-Lula NE project"
+"The Guará-Lula NE project","was given to","Subsea 7"
+"The Guará-Lula NE project","is part of","a US$ 1billion contract"

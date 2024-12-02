@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import { Sidebar, Menu, MenuItem, menuClasses, SubMenu } from 'react-pro-sidebar';
 import { Box, IconButton, Typography, useTheme } from '@mui/material';
-import { Link } from 'react-router-dom';
 import { tokens } from '../../theme';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
-import PeopleOutlinedIcon from '@mui/icons-material/PeopleOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { ItemProps } from '../../interfaces';
 
@@ -36,9 +34,9 @@ const SidebarMenu = () => {
             color: '#6870fa !important',
           },
         }}
+        href={`${to}`}
       >
         <Typography>{title}</Typography>
-        <Link to={to} />
       </MenuItem>
     );
   };
@@ -103,7 +101,7 @@ const SidebarMenu = () => {
             <SubMenu
               label={
                 <Typography variant="h6" sx={{ m: '15px 0 5px 20px' }}>
-                  Navegação
+                  Pages
                 </Typography>
               }
               rootStyles={{
@@ -122,14 +120,6 @@ const SidebarMenu = () => {
                 title="Graph Dashboard"
                 to="/"
                 icon={<HomeOutlinedIcon />}
-                selected={selected}
-                setSelected={setIsSelected}
-              />
-
-              <Item
-                title="About"
-                to="/about"
-                icon={<PeopleOutlinedIcon />}
                 selected={selected}
                 setSelected={setIsSelected}
               />

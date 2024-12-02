@@ -1,14 +1,19 @@
 import { GraphNode } from 'reagraph';
 
-export const verifyPath = (path: string[], uniqueNodes: Map<string, GraphNode>): string[] => {
-  const correctedPath: string[] = [];
-  path.forEach((element, index, paths) => {
-    if (!uniqueNodes.has(element)) {
-      correctedPath.push(`${paths[index - 1]}-${element}-${paths[index + 1]}`);
-      correctedPath.push(`${paths[index + 1]}-${element}-${paths[index - 1]}`);
-    } else {
-      correctedPath.push(element);
-    }
+export const verifyPath = (paths: string[][], uniqueNodes: Map<string, GraphNode>): string[][] => {
+  const correctedPaths: Array<Array<string>> = new Array<Array<string>>();
+  paths.forEach((path) => {
+    const pathForCurrentAnswer: string[] = [];
+    path.forEach((element, pathIndex, path) => {
+      if (!uniqueNodes.has(element)) {
+        pathForCurrentAnswer.push(`${path[pathIndex - 1]}-${element}-${path[pathIndex + 1]}`);
+        pathForCurrentAnswer.push(`${path[pathIndex + 1]}-${element}-${path[pathIndex - 1]}`);
+      } else {
+        pathForCurrentAnswer.push(element);
+      }
+    });
+    correctedPaths.push(pathForCurrentAnswer);
   });
-  return correctedPath;
+  console.log(correctedPaths);
+  return correctedPaths;
 };

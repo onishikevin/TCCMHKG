@@ -1,8 +1,8 @@
 import Papa from 'papaparse';
 import { GraphEdge, GraphNode } from 'reagraph';
-import { csvParserReturn, CsvRow } from '../interfaces';
+import { CsvParserReturn, CsvRow } from '../interfaces';
 
-export const csvParser = async (): Promise<csvParserReturn> => {
+export const csvParser = async (): Promise<CsvParserReturn> => {
   const uniqueNodes = new Map<string, GraphNode>();
   const nodes: GraphNode[] = [];
   const edges: GraphEdge[] = [];
@@ -42,5 +42,5 @@ export const csvParser = async (): Promise<csvParserReturn> => {
       });
     })
     .catch((error) => console.error('Erro ao carregar CSV:', error));
-  return { nodes, edges };
+  return { nodes, edges, uniqueNodes };
 };

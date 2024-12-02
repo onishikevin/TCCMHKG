@@ -1,17 +1,13 @@
 import { Typography, Box, useTheme } from '@mui/material';
 import { tokens } from '../../theme';
-
-interface HeaderProps {
-  title: string;
-  subtitle: string;
-}
+import { HeaderProps } from '../../interfaces';
 
 const Header = ({ title, subtitle }: HeaderProps) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
   return (
-    <Box m="30px">
+    <Box m="10px">
       <Typography variant="h2" color={colors.grey[100]} fontWeight="bold" sx={{ mx: '10px' }}>
         {title}
       </Typography>

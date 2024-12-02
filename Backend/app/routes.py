@@ -59,7 +59,7 @@ def handle_query_n():
     if not query:
         return jsonify({"error": "Parâmetro 'query' é obrigatório"}), 400
     if k is None:
-        return jsonify({"error": "Parâmetro 'n' é obrigatório"}), 400
+        return jsonify({"error": "Parâmetro 'k' é obrigatório"}), 400
     if number_of_hops is None:
         return jsonify({"error": "Parâmetro 'number_of_hops' é obrigatório"}), 400
 
