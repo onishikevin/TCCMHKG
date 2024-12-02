@@ -224,6 +224,7 @@ export const getGraphCanvaTheme = (mode: string) => ({
           label: {
             color: '#70d8bd',
             activeColor: '#6870fa',
+            stroke: 'black',
           },
           subLabel: {
             color: '#ddd',
@@ -249,6 +250,7 @@ export const getGraphCanvaTheme = (mode: string) => ({
             color: '#d0d1d5',
             activeColor: '#6870fa',
             fontSize: 8,
+            stroke: 'black',
           },
         },
         arrow: {
