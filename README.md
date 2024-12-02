@@ -1,4 +1,4 @@
-# TCCMHKG
+# TCC - Multi-Hop Question Answering with Knowledge Graphs
 Este projeto combina um **frontend em React** (para visualização de grafos, ranking de respostas e chatbot interativo) com um **backend utilizando Flask** (para servir a lógica de resposta e integração com modelos de percorrer grafos de conhecimento). O objetivo é criar um sistema de *Multi-Hop Question Answering* baseado em grafos de conhecimento.
 
 ## 🚀 Tecnologias Utilizadas  
